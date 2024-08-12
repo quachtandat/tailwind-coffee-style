@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* qtd: quachtandat*/
+.qtd-top-menu-li{
+    @apply cursor-pointer py-1 hover:text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-light-coffee
+    after:transition-all after:ease-in-out after:duration-300;
+}
+.qtd-icon{
+    @apply w-5 h-5 inline-block;
+}
+
+.qtd-badge{
+    @apply text-xs rounded-full px-1.5 py-1 text-center;
+}
