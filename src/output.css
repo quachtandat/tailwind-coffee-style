@@ -745,6 +745,10 @@ video {
   flex-direction: row;
 }
 
+.place-items-center{
+  place-items: center;
+}
+
 .items-center{
   align-items: center;
 }
@@ -1264,12 +1268,28 @@ video {
     display: flex;
   }
 
+  .lg\:grid{
+    display: grid;
+  }
+
   .lg\:hidden{
     display: none;
   }
 
   .lg\:basis-1\/6{
     flex-basis: 16.666667%;
+  }
+
+  .lg\:grid-cols-1{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:place-items-center{
+    place-items: center;
   }
 
   .lg\:items-center{
@@ -1288,8 +1308,26 @@ video {
     gap: 2rem;
   }
 
+  .lg\:gap-4{
+    gap: 1rem;
+  }
+
   .lg\:px-52{
     padding-left: 13rem;
     padding-right: 13rem;
+  }
+}
+
+@media (min-width: 1280px){
+  .xl\:grid{
+    display: grid;
+  }
+
+  .xl\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .xl\:gap-4{
+    gap: 1rem;
   }
 }
