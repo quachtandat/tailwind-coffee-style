@@ -30,5 +30,5 @@
     @apply w-8 h-px bg-gray-200 ;
 }
 .qtd-subhead-line-lable{
-    @apply mx-4 tracking-widest text-gray-500 font-medium text-[13px]  text-center;
+    @apply mx-4 tracking-widest text-gray-500 font-medium text-xs text-center;
 }
