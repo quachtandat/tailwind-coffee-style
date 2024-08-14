@@ -916,12 +916,10 @@ video {
   background-image: url('../image/slider-background.jpg');
 }
 
-.bg-\[url\(\'\/image\/product-coffee-1\.jpg\'\)\]{
-  background-image: url('/image/product-coffee-1.jpg');
-}
 
-.bg-\[url\(\'image\/product-coffee-1\.jpg\'\)\]{
-  background-image: url('image/product-coffee-1.jpg');
+
+.bg-\[url\(\'\.\/image\/product-coffee-1\.jpg\'\)\]{
+  background-image: url('./image/product-coffee-1.jpg');
 }
 
 .bg-cover{
