@@ -821,6 +821,14 @@ video {
   background-image: url('/image/slider-background.jpg');
 }
 
+.bg-\[url\(\'image\/slider-background\.jpg\'\)\]{
+  background-image: url('image/slider-background.jpg');
+}
+
+.bg-\[url\(\'\.\.\/image\/slider-background\.jpg\'\)\]{
+  background-image: url('../image/slider-background.jpg');
+}
+
 .bg-cover{
   background-size: cover;
 }
