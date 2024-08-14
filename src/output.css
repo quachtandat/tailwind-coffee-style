@@ -872,6 +872,18 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\.\.\/image\/product-1\.jpg\]{
+  background-color: ../image/product-1.jpg;
+}
+
+.bg-\[\.\.\/image\/product-2\.jpg\]{
+  background-color: ../image/product-2.jpg;
+}
+
+.bg-\[\.\.\/image\/product-3\.jpg\]{
+  background-color: ../image/product-3.jpg;
+}
+
 .bg-opacity-25{
   --tw-bg-opacity: 0.25;
 }
@@ -917,10 +929,6 @@ video {
 }
 
 
-
-.bg-\[url\(\'\.\/image\/product-coffee-1\.jpg\'\)\]{
-  background-image: url('./image/product-coffee-1.jpg');
-}
 
 .bg-cover{
   background-size: cover;
