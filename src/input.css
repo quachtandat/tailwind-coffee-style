@@ -32,3 +32,10 @@
 .qtd-subhead-line-lable{
     @apply mx-4 tracking-widest text-gray-500 font-medium text-xs text-center;
 }
+
+.slider {  
+    transition: transform 0.3s ease;  
+}  
+.slide {  
+    min-width: 100%;  
+}
